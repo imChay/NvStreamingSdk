@@ -16,4 +16,5 @@ Pod::Spec.new do |s|
   s.ios.vendored_frameworks = "lib/**/NvStreamingSdkCore.framework"
   s.requires_arc       = true
   s.xcconfig = {"ENABLE_BITCODE" => "NO"}
+  s.static_framework = true
 end
